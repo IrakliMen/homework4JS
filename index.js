@@ -38,3 +38,19 @@ let sortedArray = strngsForSort.sort();
 console.log(sortedArray);
 
 //task9
+let object = {name: "Irakli", nationality: "Georgia", age: 26, passportNumber: "12gbmkkh57"};
+console.log(Object.keys(object));
+
+//task10
+console.log(Object.values(object));
+
+//task11
+console.log(Object.entries(object));
+
+//task12
+let products = {Cola: 3, Pepsi: 2, Red_Bull: 5, Juice: 4};
+console.log(Object.values(products).reduce((num1, num2) => num1 + num2));
+
+
+
+
